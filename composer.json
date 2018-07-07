@@ -1,0 +1,38 @@
+{
+    "name": "acelot/middleware-dispatcher",
+    "description": "PSR-15 compliant middleware dispatcher",
+    "keywords": ["middleware", "dispatcher", "psr-15"],
+    "type": "library",
+    "homepage": "https://github.com/acelot/middleware-dispatcher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valeriy Protopopov",
+            "email": "provaleriy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "psr/http-server-middleware": "^1.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+        "acelot/resolver": "To resolve middleware dependencies",
+        "php-di/php-di": "To resolve middleware dependencies"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acelot\\MiddlewareDispatcher\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Acelot\\MiddlewareDispatcher\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
