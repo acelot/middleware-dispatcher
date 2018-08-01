@@ -12,7 +12,7 @@
 composer require acelot/middleware-dispatcher
 ```
 
-Also you need to install some [PSR-11](https://www.php-fig.org/psr/psr-11/) complaint DI container like `acelot/resolver` or `php-di/php-di`.
+Also you need to install some [PSR-11](https://www.php-fig.org/psr/psr-11/) compliant DI container like `acelot/resolver` or `php-di/php-di`.
 
 ## Example
 
